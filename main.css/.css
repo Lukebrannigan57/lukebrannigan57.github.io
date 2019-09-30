@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 25;
+    padding: 25;
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    overflow-x: hidden;
+    padding-top: 100px;
+
+}
+
+.sidenav a{
+    padding: 60px 20px 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: blueviolet;
+
+}
+
+.main{
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px){
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;}
+
+}
+html {
+    font: 20px/1 sans-serif;
+}
+
+img{
+    width: 100%
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header{
+    background-color: aqua;
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    background: aquamarine;
+    color: white;
+}
+
+.main-header-comment{
+    text-align: center;
+}
+
+.main-header-title{
+    color: cornflowerblue;
+}
+
+.wrapper{
+    margin: 0px 200px;
+    max-width: 50%;
+    width: 90%;
+    margin-bottom: 100%;
+}
+

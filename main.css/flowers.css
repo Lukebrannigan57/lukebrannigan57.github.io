@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 25;
+    padding: 25;
+
+}
+
+body{
+    background: rgb(44, 88, 64);
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stems{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 10px;
+    height: 200px;
+    top: 70px;
+    background: greenyellow;
+   
+}
+
+.flower-bulbs{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    background: orangered;
+    border-radius: 50%;
+    right: 0px;
+}
+
+/* .flower-petals{
+    position: relative;
+    display: flex;
+     */
+    
+
+
+/* } */
+.petal-one{
+    width: 35px;
+    height:50px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+.petal-two{
+    width: 35px;
+    height:50px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(72deg);
+    bottom: 30px;
+    left: 25px;    
+    
+}
+.petal-three{
+    width: 35px;
+    height:50px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(144deg);
+    bottom: 45px;
+    left: 20px; 
+    
+}
+.petal-four{
+    width: 35px;
+    height:50px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(-144deg);
+    bottom: 95px;
+    right: 20px; 
+    
+}
+.petal-five{
+    width: 35px;
+    height:50px;
+    background: yellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(-72deg);
+    bottom: 180px;
+    right: 30px; 
+    
+}
+
+.leaf-one{
+    width: 50px;
+    height:100px;
+    background: greenyellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(-72deg);
+
+    bottom: 100px;
+    right: 50px; 
+}
+
+.leaf-two{
+    width: 50px;
+    height:100px;
+    background: greenyellow;
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(72deg);
+    bottom: 225px;
+    left: 50px; 
+
+}
+
+.pot-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 117, 4); 
+    position: relative;
+    box-shadow: 0px 5px rgb(175, 114, 1);
+
+    top: 200px;
+    left: 300px;
+
+}
+
+.pot-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 150px;
+    background: rgb(255, 117, 4);
+    position: relative;
+    left: 307px;
+    top: 400px;
+    border-left: 100px solid transparent;
+    border-right: 50px transparent solid;
+
+   
+    
+}

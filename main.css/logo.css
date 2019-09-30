@@ -1,0 +1,120 @@
+body {
+    background-color: #a3d5d3;
+  }
+  
+  .box{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .square{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background: rgb(3 85 115);
+    border-radius: 10%;
+    box-shadow: 2px 2px white;
+    
+  }
+  
+  .inner-square{
+    width: 130px;
+    height: 130px;
+    background: rgb(74 167 189);
+    border-radius: 10%;
+    margin: auto;
+    
+  }
+  
+  .inner-box {
+    width: 110px;
+    height: 110px;
+  /*   background: white; */
+    margin:10px 10px;
+  
+  }
+  
+  .cross-L{
+    position: relative;
+    top: 100px;
+    display: flex;
+    width: 45px;
+    height: 10px;
+    background: rgb(3 85 115);
+    border-radius: 10%;
+    
+    
+    
+  }
+  
+  .vert-L {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    width: 10px;
+    height: 110px;
+    background: rgb(3 85 115);
+    border-radius: 10%;
+    
+    
+  }
+  
+  .vert-B {
+    position: relative;
+    bottom: 120px;
+    left: 55px;
+    display: flex;
+    width: 10px;
+    height: 110px;
+    background: rgb(3 85 115);
+    border-radius: 10%;
+  }
+  
+  .top-round {
+    display: flex;
+    bottom: 230px;
+    left: 60px;
+    position: relative;
+    height: 55px;
+    border-radius: 0 90px 90px 0;
+    width: 45px;
+    border-radius: 0 90px 90px 0;
+    background:rgb(3 85 115);
+  }
+  
+  .top-round-inner {
+    position: relative;
+    top: 10px;
+    height:35px;
+    left: 5px;
+    border-radius: 0 90px 90px 0;
+    width:30px;
+    border-radius: 0 90px 90px 0;
+    background: rgb(74 167 189);
+  }
+  .bottom-round {
+    display: flex;
+    bottom: 240px;
+    left: 65px;
+    position: relative;
+    height:65px;
+    border-radius: 0 90px 90px 0;
+    width:45px;
+    border-radius: 0 90px 90px 0;
+    background:rgb(3 85 115);
+    
+    
+  }
+  .bottom-round-inner {
+    position: relative;
+    top: 10px;
+    height:45px;
+    border-radius: 0 90px 90px 0;
+    width:35px;
+    border-radius: 0 90px 90px 0;
+    background: rgb(74 167 189);
+    
+  }
